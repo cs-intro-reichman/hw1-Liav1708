@@ -11,7 +11,7 @@ public class NumWords {
 		int tens = Math.floorDiv(Math.floorMod(number, 100), 10); // extracting the tens
 		int ones = Math.floorDiv(Math.floorMod(Math.floorMod(number, 100), 10), 1); // extracting the ones
 
-		System.out.println(hundreds + " hundreds, " + tens + " tens, " + ones + " ones.");
+		System.out.println(hundreds + " hundreds, " + tens + " tens, and " + ones + " ones.");
 
 
 		
