@@ -15,7 +15,7 @@ public class FVCalc {
 		newRate = Math.pow(((newRate / 100.0) + 1), newYears); // calculating new rate
 		newValue = newValue * newRate ; // calculating new value
 
-		System.out.println("After " + years + " years, $" + value + " saved at " 
+		System.out.println("After " + years + " years, a $" + value + " saved at " 
 		+ (double) (rate) + "% will yeild $" + (int) (newValue));
 	
 
