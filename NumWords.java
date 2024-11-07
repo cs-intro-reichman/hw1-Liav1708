@@ -5,9 +5,10 @@ public class NumWords {
 
 		int number = Integer.parseInt(args[0]);
 
+		int hundreds = number / 100;  //extracting the hundreds
+
 		number = Math.floorMod(number, 1000); // making sure we checking from the hunderds digit
 
-		int hundreds  = Math.floorDiv(number, 100); //extracting the hundreds
 		int tens = Math.floorDiv(Math.floorMod(number, 100), 10); // extracting the tens
 		int ones = Math.floorDiv(Math.floorMod(Math.floorMod(number, 100), 10), 1); // extracting the ones
 
