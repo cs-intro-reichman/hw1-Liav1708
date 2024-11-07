@@ -3,7 +3,7 @@ public class FVCalc {
 	public static void main(String[] args){
 		
 		int value = Integer.parseInt(args[0]);
-		int rate = Integer.parseInt(args[1]);
+		double rate = Double.parseDouble(args[1]);
 		int years = Integer.parseInt(args[2]);
 
 		System.out.println(value + " " + rate + " " + years);
@@ -16,7 +16,7 @@ public class FVCalc {
 		newValue = newValue * newRate ; // calculating new value
 
 		System.out.println("After " + years + " years, $" + value + " saved at " 
-		+ (double) (rate) + "%25 will yeild $" + (int) (newValue));
+		+ (double) (rate) + "% will yeild $" + (int) (newValue));
 	
 
 		
