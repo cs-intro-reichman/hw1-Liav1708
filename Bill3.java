@@ -11,8 +11,8 @@ public class Bill3 {
 		NewBill = NewBill / 3;                 // dividing the bill
 		double FinalBill = Math.ceil(NewBill); // rounding the bill
 
-		System.out.println("hello " + name1 + " " + name2 + " " + name3 +
-		 " your bill is : " + Bill + " please pay " + FinalBill + " each");
+		System.out.println("Dear " + name3 + ", " + name2 + " and " + name1 +
+		 ": pay " + FinalBill + " Shekels each");
 
 	}
 }
