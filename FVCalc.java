@@ -16,7 +16,7 @@ public class FVCalc {
 		newValue = newValue * newRate ; // calculating new value
 
 		System.out.println("after " + years + " years, $" + value + " saved at " 
-		+ (double) (rate) + " will yeild $" + (int) (newValue));
+		+ (double) (rate) + "% will yeild $" + (int) (newValue));
 	
 
 		
